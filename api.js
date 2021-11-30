@@ -1,6 +1,6 @@
 // Generate your API Key from
 // https://www.weatherapi.com
-const key = config.apiKey;
+const key = "YOUR_API_KEY_HERE";
 
 //Request date from city input
 function getData(inputCity) {
