@@ -6,7 +6,7 @@ This application uses API to get weather from weatherapi.com
 
 ## Screenshot
 
-![](./imagens/screenshot.gif)
+![](./images/screenshot.gif)
 
 ## Instructions
 
