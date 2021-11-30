@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  color: #fff;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 16%,
+    rgba(90, 102, 208, 1) 85%
+  );
+
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 2rem 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.glass-style {
+  background: rgba(161, 161, 161, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.inputs {
+  width: 50%;
+  margin-left: 5px;
+  margin-bottom: 3rem;
+
+  border-radius: 60px;
+  background-color: #fff;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputs img {
+  width: 35px;
+  margin-left: 7px;
+}
+
+.inputs img:hover {
+  cursor: pointer;
+}
+
+.inputs input {
+  flex-grow: 1;
+  border: none;
+  font-size: 1.2rem;
+  text-align: center;
+  color: gray;
+}
+
+.inputs button {
+  border: none;
+  padding: 1rem;
+  background-color: #22c1c3;
+}
+
+.inputs button:hover {
+  background-color: #628329;
+}
+
+.container {
+  width: 50%;
+  margin-left: 5px;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  border-radius: 10px;
+  border: 1px solid #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cityName,
+#cityState {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+#cityState {
+  font-size: 1rem;
+}
+
+.temp {
+  font-size: 3rem;
+  margin-right: 1rem;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.conditions {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.weather {
+  min-width: 30%;
+  padding: 1rem;
+  text-align: center;
+
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.weather h3 {
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.weather p {
+  font-size: 2rem;
+}
